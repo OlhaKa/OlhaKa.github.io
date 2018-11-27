@@ -14,4 +14,12 @@
     .method p {
         display: inline-table;
     }
+    .contacts {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .price-info {
+        margin-top: 120px;
+    }
  }
