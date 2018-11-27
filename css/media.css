@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-4 .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .method p {
+        display: inline-table;
+    }
+ }
