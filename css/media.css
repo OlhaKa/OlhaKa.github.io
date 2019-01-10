@@ -10,6 +10,29 @@
     }
 }
 
+@media (max-width: 991px) {
+    .navbar-nav {
+        align-items: flex-end;
+    }
+    .navbar-item {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-2, .section-3 {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-2 h3 {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}
+
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .method p {
         display: inline-table;

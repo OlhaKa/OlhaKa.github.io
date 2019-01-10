@@ -11,10 +11,11 @@ h1 {
     color: white;
 }
 
+button, 
 .btn:focus,
 .close:focus {
    box-shadow: none;
-   outline: none;
+   outline: none !important;
 }
 
 .section {
@@ -26,7 +27,7 @@ h1 {
 }
 
 .section-1 {
-    background: url("../media/ie-screen.jpg") no-repeat;
+    background: url("../media/ie-screen.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
