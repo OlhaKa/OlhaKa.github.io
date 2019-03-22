@@ -32,6 +32,17 @@
     }
 }
 
+@media (max-width: 480px) {
+    .brand-img {
+        height: 45px;
+        width: 45px;
+    }
+    .navbar-brand span {
+        font-size: 26px;
+        margin-right: 5px;
+    }
+}
+
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .method p {
